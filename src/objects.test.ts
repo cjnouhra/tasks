@@ -66,7 +66,7 @@ describe("Testing the object functions", () => {
 
     ///////////////////////////////////
     // isCorrect
-    test("Testing the isCorrect function", () => {
+    test("(3 pts) Testing the isCorrect function", () => {
         expect(isCorrect(ADDITION_QUESTION, "4")).toEqual(true);
         expect(isCorrect(ADDITION_QUESTION, "2")).toEqual(false);
         expect(isCorrect(ADDITION_QUESTION, " 4\n")).toEqual(true);
